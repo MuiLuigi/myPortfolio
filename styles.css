@@ -109,6 +109,18 @@ button:hover{
     color: beige;
 }
 
+.projectDescription2 {
+    display: none;
+    font-size: small;
+    color: beige;
+}
+
+.projectDescription3 {
+    display: none;
+    font-size: small;
+    color: beige;
+}
+
 footer {
     background-color: #333;
     color: white;
