@@ -60,7 +60,47 @@
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>In the future, this will be a contact form. For now, just leave this as a placeholder.</p>
+        <div class="form-container">
+            <form id="formRegistration">
+                <label for="name">Please enter your First and Last name: </label>
+                <input type="text" id="name" name="name">
+                <span class="error" id="nameError"></span>
+                <br>
+                <br>
+        
+                <label for="email">Please enter your email address: </label>
+                <input type="email" id="email" name="email">
+                <span class="error" id="emailError"></span>
+                <br>
+                <br>
+        
+                <label for="confirmEmail">Please confirm your email address: </label>
+                <input type="email" id="confirmEmail" name="confirmEmail">
+                <span class="error" id="confirmEmailError"></span>
+                <br>
+                <br>
+        
+                <label for="password">Please create a password:</label>
+                <input type="password" id="password" name="password">
+                <span class="error" id="passwordError"></span>
+                <br>
+                <br>
+
+                <label for="confirmPassword">Please confirm your passowrd: </label>
+                <input type="password" id="confirmPassword" name="confirmPassword">
+                <span class="error" id="confirmPasswordError"></span>
+                <br>
+                <br>
+        
+                <div class="flex-container">
+                    <div class="flex-item"><input type="submit"></input></div>
+                    <div class="flex-item"><input id="clear-btn" type="reset"></input></div>
+                </div>
+            </form>
+            <p id="successMessage" class="success"></p>
+            <p id="clear"></p>
+        
+            </div>
     </section>
 
     <!-- Footer Section -->

@@ -131,6 +131,12 @@ footer {
     width: 100%;
 }
 
+.form-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
 /* Media Queries for Mobile Devices */
 @media only screen and (max-width: 600px) {
     header, footer {
