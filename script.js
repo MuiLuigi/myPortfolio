@@ -7,14 +7,14 @@ document.addEventListener("DOMContentLoaded", function() {
     var descriptionDetail2 = document.querySelector(".projectDescription2");
     var descriptionDetail3 = document.querySelector(".projectDescription3");
 
-    function descriptionDetails(button, detail) {
+    function descriptionDetails(buttons, detail) {
         if (detail.style.display === "") {
             detail.style.display = "block";
-            button.textContent = "Hide Description";
+            buttons.textContent = "Hide";
          }
          else {
-            detail.style.display = "none";
-            button.textContent = "Show Description";
+            detail.style.display = "";
+            buttons.textContent = "Show Description";
          }
       }
 
