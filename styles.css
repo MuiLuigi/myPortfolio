@@ -89,6 +89,26 @@ h2 {
     color: #f7f1f1;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.flex-project {
+    background-color: rgb(57, 68, 77);
+}
+
+button:hover{
+    background: #333;
+}
+
+.projectDescription {
+    display: none;
+    font-size: small;
+    color: beige;
+}
+
 footer {
     background-color: #333;
     color: white;
