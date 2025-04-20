@@ -57,6 +57,11 @@ header, footer {
     width: 88%;
 }
 
+body.dark-mode {
+    background-color: #000000;
+    color: #7e7878;
+}
+
 nav ul {
     list-style: none;
     padding: 0;

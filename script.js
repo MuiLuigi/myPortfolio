@@ -110,6 +110,6 @@ function validateEmail(email) {
 
 const darkMode = document.getElementById("darkMode-btn");
 
-toggleButton.addEventListener('click', function() {
+darkMode.addEventListener('click', function() {
     document.body.classList.toggle("dark-mode");
 });
