@@ -31,7 +31,7 @@ header, footer {
 }
 
 #projects{
-    background-color: rgb(46, 54, 61);
+    background-color: rgb(68, 70, 70);
     color: rgb(247, 238, 238);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -82,7 +82,7 @@ section {
     margin: 20px;
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(87, 85, 85, 0.1);
 }
 
 h2 {
@@ -96,7 +96,7 @@ h2 {
 }
 
 .flex-project {
-    background-color: rgb(57, 68, 77);
+    background-color: rgb(94, 94, 95);
 }
 
 button:hover{
@@ -106,19 +106,19 @@ button:hover{
 .projectDescription {
     display: none;
     font-size: small;
-    color: beige;
+    color: rgb(247, 247, 244);
 }
 
 .projectDescription2 {
     display: none;
     font-size: small;
-    color: beige;
+    color: rgb(247, 247, 244);
 }
 
 .projectDescription3 {
     display: none;
     font-size: small;
-    color: beige;
+    color: rgb(247, 247, 244);
 }
 
 footer {
